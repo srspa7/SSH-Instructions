@@ -60,7 +60,7 @@ git config --global user.email "your.email@example.com"
 ![Flowchart Step 3](./images/Flow%20Chart%20step%203.png)
 <p style="text-align: center;">Flowchart Step 3<p>
 
-* Check for existing SSH keys with `ls -al ~/.ssh`.
+* Check for existing SSH keys with `ls -al ~/.ssh` (see Figure 1).
 > [!NOTE]
 > If the output has `id_ed25519`, then you already have an SSH key and can skip to Step 4.
 
@@ -77,12 +77,11 @@ git config --global user.email "your.email@example.com"
 > [!NOTE]
 > You will be prompted to enter a file to save the key to. The default is recommended and can be chosen by simply pressing Enter.
 > You will also be asked to give a passphrase. You can skip the passphrase by pressing Enter twice more.
-> You will then be shown the SSH-key fingerprint and a “randomart” image — these are saved automatically.
-
-<div style="text-align: center;" >
-<img src="./images/SSH Key Generation (random art).png" alt="Generating an SSH key with random art" />
-<p style="text-align: center;">Figure 2<p>
-</div>
+> You will then be shown the SSH-key fingerprint and a “randomart” image — these are saved automatically (see Figure 2).
+> <div style="text-align: center;" >
+> <img src="./images/SSH Key Generation (random art).png" alt="Generating an SSH key with random art" />
+> <p style="text-align: center;">Figure 2<p>
+> </div>
 
 ---
 
@@ -101,24 +100,24 @@ git config --global user.email "your.email@example.com"
 <p style="text-align: center;">Figure 3<p>
 </div>
 
-* Copy the output, including the leading `ssh-ed25519` and your email.
+* Copy the output (see Figure 3), including the leading `ssh-ed25519` and your email.
   - Example of the output to copy: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJBJnxcw14qSzYlvnGDmllVmep6ITUj/iyLgGh9fC5z7 esmit@byu.edu`
 * Open [Github](github.com) in your browser.
-* In the top-right corner, click your profile photo → **Settings**.
+* In the top-right corner, click your profile photo → **Settings** (see Figure 4).
 
 <div style="text-align: center;" >
 <img src="./images/Navigating to Settings.png" alt="Navigate to settings" />
 <p style="text-align: center;">Figure 4<p>
 </div>
 
-* In the sidebar, click **SSH and GPG keys**.
+* In the sidebar, click **SSH and GPG keys** (see Figure 5).
 
 <div style="text-align: center;" >
 <img src="./images/New SSH key in Github.png" alt="Create new SSH key" />
 <p style="text-align: center;">Figure 5<p>
 </div>
 
-* Click **New SSH key** or **Add SSH key**.
+* Click **New SSH key** or **Add SSH key** (see Figure 6).
 
 <div style="text-align: center;" >
 <img src="./images/New SSH key in Github.png" alt="Add new SSH key to Github" />
@@ -139,7 +138,7 @@ git config --global user.email "your.email@example.com"
 <p style="text-align: center;">Flowchart Step 5<p>
 
 * Go to the GitHub repository you want to clone.
-* Click the green **Code** button, then select **SSH**.
+* Click the green **Code** button, then select **SSH** (see Figure 7).
 
 <div style="text-align: center;" >
 <img src="./images/cloneRepoGithub.png" alt="Copy Github repository SSH link" />
@@ -153,7 +152,7 @@ git config --global user.email "your.email@example.com"
   git clone git@github.com:BYUMarsRover/BYU-Mars-Rover-Wiki.git
 ```
 > [!NOTE]
-> You may see a warning asking if you want to trust GitHub. Reply with `yes`.
+> You may see a warning asking if you want to trust GitHub. Reply with `yes` (see Figure 8).
 > <div style="text-align: center;" >
 > <img src="./images/cloneRepo.png" alt="Clone Github repository to your local computer" />
 > <p style="text-align: center;">Figure 8<p>
@@ -165,7 +164,7 @@ git config --global user.email "your.email@example.com"
 To verify that the repository was cloned correctly:  
 - Open the terminal.  
 - Run `ls` and check for the repository folder.  
-- If the folder appears, the repository has been successfully cloned.
+- If the folder appears, the repository has been successfully cloned (see Figure 9).
 
 <div style="text-align: center;" >
 <img src="./images/Final_Check.png" alt="Successful Clone" />
