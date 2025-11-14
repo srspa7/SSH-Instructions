@@ -16,7 +16,6 @@
 - A web browser.
 - A Github account.
 
-> [!NOTE]
 >   **Tips for Using the Terminal**
 > - Some commands may not produce any visible output — this is normal.  
 > - If you are asked something like *“Do you want to continue?”*, type **Y** (or **yes**) and press **Enter**.  
